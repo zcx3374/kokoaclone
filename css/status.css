@@ -1,0 +1,14 @@
+.status {
+  width: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+.status-left {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}

@@ -1,0 +1,45 @@
+@keyframes logo {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.logo {
+  position: fixed;
+  animation: logo 2s ease-in-out;
+  margin-left: 20px;
+}
+
+.login-form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  margin-top: 20px;
+  border: none;
+  transition: border-color 0.4s ease-in-out;
+}
+.line {
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+}
+.welcom {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 30px;
+}
+.welcom2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: grey;
+}
+.login-form input:focus {
+  border-color: skyblue;
+}
